@@ -1,0 +1,5 @@
+First line: Getting started with C++ file streams.
+Second line: Learning how dynamic vectors allocate memory.
+Third line: Practicing pointer arithmetic and array bounds.
+Fourth line: Building a robust log analyzer step by step.
+Fifth line: Success is the sum of small efforts repeated daily.

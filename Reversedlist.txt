@@ -1,0 +1,6 @@
+~~[Reversed lines readed from the file]~~
+Fifth line: Success is the sum of small efforts repeated daily.
+Fourth line: Building a robust log analyzer step by step.
+Third line: Practicing pointer arithmetic and array bounds.
+Second line: Learning how dynamic vectors allocate memory.
+First line: Getting started with C++ file streams.
