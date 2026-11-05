@@ -2,8 +2,12 @@
 #include <vector>
 #include <fstream>
 #include <string>
+#include <cmath>
 using namespace std;
+/* THE REVERSE PROJECT PROGRAM
 int main(){
+toreverse();
+
 vector <string> store;
 
     string line;
@@ -44,3 +48,14 @@ writefile<<store[i]<<endl; }
 writefile.close(); }
 
 return 0;}
+
+
+*/
+
+
+/*MY INFOCALCULATOR PROJECT
+
+int n; cout<<"Insert the number of possible outputs";
+int N; cout<<"Insert the amount of sended messages";
+
+*/
