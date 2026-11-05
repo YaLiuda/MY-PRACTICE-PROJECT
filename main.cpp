@@ -55,7 +55,13 @@ return 0;}
 
 /*MY INFOCALCULATOR PROJECT
 
-int n; cout<<"Insert the number of possible outputs";
+int n; cout<<"Insert the number of possible outputs"; 
+cin>>n;
+while(n<0){
+try{
+throw runtime error
+
+}}
 int N; cout<<"Insert the amount of sended messages";
 
 */
