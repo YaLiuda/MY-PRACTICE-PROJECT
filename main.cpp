@@ -3,6 +3,8 @@
 #include <fstream>
 #include <string>
 #include <cmath>
+#include <iomanip>
+#include <stdexcept>
 using namespace std;
 /* THE REVERSE PROJECT PROGRAM
 int main(){
@@ -54,14 +56,42 @@ return 0;}
 
 
 /*MY INFOCALCULATOR PROJECT
+#include <iostream>
+#include <iomanip>
+#include <stdexcept>
+#include <cmath>
+using namespace std;
+int main(){
+int n; cout<<"Insert the number of possible outputs "; 
+cin>>n; 
+int N; cout<<"Insert the amount of sended messages ";
+cin>>N;
 
-int n; cout<<"Insert the number of possible outputs"; 
-cin>>n;
-while(n<0){
+while(n<=0){
 try{
-throw runtime error
+throw runtime_error("Invalid input. Please enter a positive integer for n."); }
+catch (const exception & error){
+cout<<error.what()<<endl; }
+cin>>n; }
 
-}}
-int N; cout<<"Insert the amount of sended messages";
+while(N<=0){
+try{
+throw runtime_error("Invalid input. Please enter a positive integer for N.");}
+catch (const exception & error){
+cout<<error.what()<<endl;}
+cin>>N; }
 
-*/
+//i did this validation system so we avoid working with invalid data 
+
+// int I -INVALID EXPRESSION, since as a consequence we are planning to use the
+// fixed and setprecision() functions
+
+double I = log2(n);
+double V= N*I;
+
+cout<< fixed<<setprecision (3) <<"I="<<I<<" бит"<<endl;
+cout<<"V="<<V<<" бит"<<endl;
+return 0; }
+
+
+*/ 
