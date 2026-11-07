@@ -63,6 +63,7 @@ return 0;}
 #include <iomanip>
 #include <stdexcept>
 #include <cmath>
+#include <limits>
 using namespace std;
 int main(){
 int n; cout<<"Insert the number of possible outputs "; 
@@ -94,8 +95,8 @@ cin>>N; }
 double I = log2(n);
 double V= N*I;
 
-cout<< fixed<<setprecision (3) <<"I="<<I<<" бит"<<endl;
-cout<<"V="<<V<<" бит"<<endl;
+cout<< fixed<<setprecision (3) <<"I="<<I<<" bits"<<endl;
+cout<<"V="<<V<<" bits"<<endl;
 
 return 0; }
 
