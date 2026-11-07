@@ -6,6 +6,7 @@
 #include <iomanip>
 #include <stdexcept>
 using namespace std;
+
 /* THE REVERSE PROJECT PROGRAM
 int main(){
 toreverse();
@@ -67,24 +68,26 @@ cin>>n;
 int N; cout<<"Insert the amount of sended messages ";
 cin>>N;
 
-while(n<=0){
+while(n<=0 || cin.fail()){
 try{
 throw runtime_error("Invalid input. Please enter a positive integer for n."); }
 catch (const exception & error){
 cout<<error.what()<<endl; }
+cin.clear();
+cin.ignore(numeric_limits<streamsioze>::max(),'\n');
 cin>>n; }
 
-while(N<=0){
+while(N<=0 || cin.fail()){
 try{
 throw runtime_error("Invalid input. Please enter a positive integer for N.");}
 catch (const exception & error){
 cout<<error.what()<<endl;}
+cin.clear();
+cin.ignore(numeric_limits<streamsize>::max(),'\n');
 cin>>N; }
 
 //i did this validation system so we avoid working with invalid data 
 
-// int I -INVALID EXPRESSION, since as a consequence we are planning to use the
-// fixed and setprecision() functions
 
 double I = log2(n);
 double V= N*I;
