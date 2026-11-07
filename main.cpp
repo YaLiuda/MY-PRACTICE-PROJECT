@@ -1,13 +1,12 @@
+/* THE REVERSE PROJECT PROGRAM
 #include <iostream>
 #include <vector>
 #include <fstream>
 #include <string>
-#include <cmath>
-#include <iomanip>
 #include <stdexcept>
 using namespace std;
 
-/* THE REVERSE PROJECT PROGRAM
+
 int main(){
 toreverse();
 
@@ -51,12 +50,15 @@ writefile<<store[i]<<endl; }
 writefile.close(); }
 
 return 0;}
-
-
 */
 
 
-/*MY INFOCALCULATOR PROJECT
+
+
+
+
+
+//MY INFOCALCULATOR PROJECT
 #include <iostream>
 #include <iomanip>
 #include <stdexcept>
@@ -74,7 +76,7 @@ throw runtime_error("Invalid input. Please enter a positive integer for n."); }
 catch (const exception & error){
 cout<<error.what()<<endl; }
 cin.clear();
-cin.ignore(numeric_limits<streamsioze>::max(),'\n');
+cin.ignore(numeric_limits<streamsize>::max(),'\n');
 cin>>n; }
 
 while(N<=0 || cin.fail()){
@@ -94,7 +96,7 @@ double V= N*I;
 
 cout<< fixed<<setprecision (3) <<"I="<<I<<" бит"<<endl;
 cout<<"V="<<V<<" бит"<<endl;
+
 return 0; }
 
-
-*/ 
+// 
