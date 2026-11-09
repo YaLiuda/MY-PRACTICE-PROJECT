@@ -58,7 +58,7 @@ return 0;}
 
 
 
-//MY INFOCALCULATOR PROJECT
+/*MY INFOCALCULATOR PROJECT
 #include <iostream>
 #include <iomanip>
 #include <stdexcept>
@@ -100,4 +100,40 @@ cout<<"V="<<V<<" bits"<<endl;
 
 return 0; }
 
-// 
+*/ 
+
+
+
+//PRACTICE PROBLEMS FOR SESSION
+#include <iostream>
+#include <iomanip>
+#include <cmath>
+#include <limits>
+using namespace std;
+int main(){
+double N, I;
+cout<<" Insert the amoint of sended messages - N"<<endl;
+cin>>N;
+while(N<=0 || cin.fail()){
+cin.clear();
+cin.ignore(numerics_limits<streamsize>::max(),'\n');
+cin>>N;
+}
+cout<<" Insert the amount of possible outcomes - n"<<endl;
+cin>>n;
+while ( n<=0 || cin.fail()){
+cin.fail();
+cin.ignore(numerics_limits<streamsize>::max(),'\n');
+cin>>n;
+}
+I = log2(n);
+double V = N * I;
+cout<< fixed<< setprecision (3);
+cout<<"I="<<I;
+cout<<"V="<< V;
+return 0;
+}
+
+
+
+
