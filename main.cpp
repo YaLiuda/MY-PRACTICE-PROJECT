@@ -154,14 +154,11 @@ cin>>n;
 }
 
 double I = log2(n);
-m
-
+int m= ceil(log2(n));
+cout<<"Точный I ="<<fixed<<setprecision(3)<<I<<"bit, Минимальная длина m= ";
+cout<< defaultfloat<< setprecision (6)<< m << " bit."
 return 0;
 }
-
-m под 1 символ ?
-cin>>n 
-I
 
 
 
