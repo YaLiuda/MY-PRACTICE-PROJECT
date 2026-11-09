@@ -104,15 +104,15 @@ return 0; }
 
 
 
-//PRACTICE PROBLEMS FOR SESSION
+/*PRACTICE PROBLEMS FOR SESSION
 #include <iostream>
 #include <iomanip>
 #include <cmath>
 #include <limits>
 using namespace std;
 int main(){
-double N, I;
-cout<<" Insert the amoint of sended messages - N"<<endl;
+double N, n;
+cout<<" Insert the amount of sended messages - N"<<endl;
 cin>>N;
 while(N<=0 || cin.fail()){
 cin.clear();
@@ -126,14 +126,44 @@ cin.fail();
 cin.ignore(numerics_limits<streamsize>::max(),'\n');
 cin>>n;
 }
-I = log2(n);
+double I = log2(n);
 double V = N * I;
 cout<< fixed<< setprecision (3);
 cout<<"I="<<I;
 cout<<"V="<< V;
 return 0;
 }
+*/
+
+
+/*  ANOTHER PROJECT PRACTICE
+#include <iostream>
+#include <cmath>
+#include <iomanip>
+#include <limits>
+using namespace std;
+int main(){
+cout<<"Give the amount of possible outcomes - n ";
+int n;
+cin>> n; 
+while (n<0 || cin.fail()){
+cer<<"Invalid inserted value for n, input the new one";
+cin.clear();
+cin.ignore (numerics_limits<streamsize>::max(),'\n');
+cin>>n;
+}
+
+double I = log2(n);
+m
+
+return 0;
+}
+
+m под 1 символ ?
+cin>>n 
+I
 
 
 
+*/
 
