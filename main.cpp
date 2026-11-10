@@ -160,7 +160,14 @@ cout<< defaultfloat<< setprecision (6)<< m << " bit."
 return 0;
 }
 
+*/
+ 
+
+
+/* 3 mini practice 
+
+
+
 
 
 */
-
